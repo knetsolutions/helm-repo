@@ -1,9 +1,40 @@
 apiVersion: v1
 entries:
+  color:
+  - apiVersion: v2
+    appVersion: "3"
+    created: "2020-05-06T11:56:51.403776833Z"
+    description: A Helm chart for Kubernetes
+    digest: 8d12ddd04de0be39668dc22d4dd7ffa1ff96fb64a11c4941a5509d183692eab1
+    name: color
+    type: application
+    urls:
+    - https://knetsolutions.github.io/helm-repo/color-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v2
+    appVersion: "2"
+    created: "2020-05-06T11:56:51.403217346Z"
+    description: A Helm chart for Kubernetes
+    digest: bb6459e58f82b7b8832e55398ba6fc1c87e3e2a2dee5aff9b177435850e290a4
+    name: color
+    type: application
+    urls:
+    - https://knetsolutions.github.io/helm-repo/color-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: "1"
+    created: "2020-05-06T11:56:51.402718661Z"
+    description: A Helm chart for Kubernetes
+    digest: b775054557de57d40c44b5be3d499498723f563f928018e9ec66c0c0ea93235b
+    name: color
+    type: application
+    urls:
+    - https://knetsolutions.github.io/helm-repo/color-0.1.0.tgz
+    version: 0.1.0
   mychart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-05-06T04:34:11.159522477Z"
+    created: "2020-05-06T11:56:51.404302295Z"
     description: A Helm chart for Kubernetes
     digest: 49dc65d2bd5e7f4dfd9037b3a434904ef93f28d0d297af3ab6db49c5657bbb45
     name: mychart
@@ -11,4 +42,4 @@ entries:
     urls:
     - https://knetsolutions.github.io/helm-repo/mychart-0.1.0.tgz
     version: 0.1.0
-generated: "2020-05-06T04:34:11.157711124Z"
+generated: "2020-05-06T11:56:51.401980246Z"
